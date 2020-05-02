@@ -1,12 +1,13 @@
+import math
+
 n = list(map(int,input().split()))
-hikaku1 = 0
-hikaku2 = 0
+#hikaku = 0
 
-for x in n[2]:
-    m = n[0]* x // n[1]
-    if m > hikaku1:
-        hikaku1 = m
+#for x in range(1,n[2]+1):
+#    m = math.floor(n[0] * x // n[1]) - n[0] * math.floor(x // n[1])
+#    if hikaku < m:
+#        hikaku = m
 
-for x in [2]:
-    m = x // n[1]
-    hikaku2
+x = min(n[1]-1 , n[2])
+if n[2] >= n[2]:
+    print(math.floor(n[0] * x / n[1]))
