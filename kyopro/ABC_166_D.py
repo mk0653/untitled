@@ -1,3 +1,8 @@
+n = input()
+n = int(n)
 
-
-print(x)
+for x in range(10**5):
+    for m in range(10):
+        if x ** 5 + m ** 5 == n:
+            print(x,-m)
+            exit()
